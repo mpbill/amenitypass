@@ -1,0 +1,14 @@
+<div class="card-wrapper">
+<mat-card class="card">
+  <div class="inputs">
+    <mat-form-field>
+      <mat-label>Start</mat-label>
+      <input [formControl]="start" matInput type="time">
+    </mat-form-field>
+  </div>
+  <div>
+    <button mat-button color="accent" (click)="submit('Claire Leight')">Claire</button>
+    <button mat-button color="primary" (click)="submit('Michael Billingham')">Michael</button>
+  </div>
+</mat-card>
+</div>
